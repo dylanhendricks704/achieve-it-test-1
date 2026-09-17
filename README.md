@@ -1,9 +1,9 @@
-# Achieve It Version 7 — Web Companion 1
+# Achieve It Version 7 — Web Companion 2
 
-First installable PWA prototype for iPhone/iPad. It preserves the Achieve It mobile visual direction, uses the existing blue-A/checkmark icon, works offline after first load, and stores tasks/categories locally in the browser.
+Integration 5 fidelity rebuild. This replaces Web Companion 1 as the PWA baseline.
 
-Included now: Today, Calendar shell, All Tasks/search, Categories, Add Task, Add Category with color/icon selection, Settings, System/Light/Dark appearance, Home Screen manifest/icon, and offline service worker.
+Included: responsive Today/Calendar/Tasks/Categories UI, real month calendar with date selection and task dots, Add Task, custom categories with proper person/pencil/book icons, 5-minute time menu plus Custom exact time, Settings with System/Light/Dark, notification enable controls, configurable notification times, Personal Reminder fields, test browser notification, offline service worker, local persistence, and Achieve It Home Screen icons.
 
-Not enabled yet: Mac sync and background Web Push reminders. Those need a sync/push backend and are intentionally the next phase rather than pretending they already work.
+Background scheduled Web Push and Mac sync are intentionally not claimed as complete yet; they require the next backend/sync phase.
 
-To install on iPhone, this folder must first be hosted on an HTTPS website. Once hosted, open the site in Safari, use Share → Add to Home Screen, then launch Achieve It from the new Home Screen icon. Developer Mode is not required for a PWA.
+For GitHub Pages, upload the CONTENTS of this folder to the repository root, replacing index.html, manifest.webmanifest, sw.js and icons. After deployment, refresh/reopen the installed Home Screen app so the new service worker cache takes effect.
