@@ -1,9 +1,12 @@
-# Achieve It Version 7 — Web Companion 2
+# Achieve It Version 7 — Web Companion 3
 
-Integration 5 fidelity rebuild. This replaces Web Companion 1 as the PWA baseline.
+Responsive PWA build based on the established Achieve It mobile design.
 
-Included: responsive Today/Calendar/Tasks/Categories UI, real month calendar with date selection and task dots, Add Task, custom categories with proper person/pencil/book icons, 5-minute time menu plus Custom exact time, Settings with System/Light/Dark, notification enable controls, configurable notification times, Personal Reminder fields, test browser notification, offline service worker, local persistence, and Achieve It Home Screen icons.
+Changes in Companion 3:
+- Single-column scrolling time picker in 5-minute increments, plus Custom exact time.
+- Clean non-emoji SVG glyphs for Personal, Schoolwork, Read and bottom navigation.
+- Bottom navigation: sun, calendar, checklist, person silhouette.
+- Mobile-specific sizing, safe-area spacing, sheets, navigation, and calendar layout.
+- Existing task, category, calendar, theme, notification controls, offline storage, manifest, and Home Screen icons preserved.
 
-Background scheduled Web Push and Mac sync are intentionally not claimed as complete yet; they require the next backend/sync phase.
-
-For GitHub Pages, upload the CONTENTS of this folder to the repository root, replacing index.html, manifest.webmanifest, sw.js and icons. After deployment, refresh/reopen the installed Home Screen app so the new service worker cache takes effect.
+Background scheduled Web Push and Mac sync still require the later backend/sync phase.
